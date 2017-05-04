@@ -30,6 +30,8 @@
 
 	port.on('open', function() {
 		console.log('Open port');
+		const d = new Date();
+		port.write('T' + (d.getTime() / 1000));
 	});
 
 	port.on('error', function(err) {
