@@ -1,0 +1,7 @@
+{
+	"firebase": {
+	},
+	"serialport": "COM6",
+	"baudRate": 9600,
+	"car": "mario"
+}

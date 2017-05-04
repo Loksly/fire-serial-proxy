@@ -1,0 +1,15 @@
+{
+  "name": "fire-serial-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Loksly",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^3.9.0",
+    "serialport": "^4.0.7"
+  }
+}
