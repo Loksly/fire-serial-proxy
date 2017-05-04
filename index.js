@@ -39,7 +39,7 @@
 	port.on('data', function (data) {
 		try{
 			const metrics = JSON.parse(data);
-			metrics.time = new Date();
+			metrics.t = new Date();
 			metricref.push().set(metrics);
 			console.log('Data: ' + data);
 		}catch(e){
